@@ -187,8 +187,5 @@ yt-comments-gcp/
 
 ---
 
-## 📫 Connect with Me  
-**Author:** *Jaya Chandra Kadiveti*  
-**LinkedIn:** [jayachandrakadiveti](https://www.linkedin.com/in/jayachandrakadiveti/)
-**Email:** [datawithjay1@gmail.com](mailto:datawithjay1@gmail.com)
-
+**Author:** *Srikar Sankranti*  
+*Texas A & M University*
