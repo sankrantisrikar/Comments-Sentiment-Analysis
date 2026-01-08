@@ -189,31 +189,4 @@ yt-comments-gcp/
 
 **Author:** *Srikar Sankranti*  
 *Texas A & M University*
-flowchart LR
-    A[X12 837 Claim] --> B[Parse 837 to JSON]
-    C[X12 835 ERA] --> D[Parse 835 to JSON]
 
-    B --> E[Claim–ERA Reconciliation Engine]
-    D --> E
-
-    F[Prior Auth] --> G[Document Retrieval]
-    H[Supporting Docs] --> G
-    I[Payer Guidelines] --> G
-
-    G --> J[Summarized History Builder]
-    E --> K[Feature Engineering / Signal Extractor]
-    J --> L[Context Pack Builder]
-    K --> L
-
-    L --> M[Rules Engine]
-    L --> N[LLM Reasoning Layer]
-
-    M --> O[Checklist Generator]
-    N --> O
-
-    O --> P[UI – Persistent Checklist]
-
-    P --> Q[Human Feedback Loop]
-    Q --> K
-
-    P --> R[Correct Claim Checklist]
